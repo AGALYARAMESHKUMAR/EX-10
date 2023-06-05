@@ -12,7 +12,7 @@ Send message to the client and receive the message from the client using the Soc
 Send and receive the message using the send function in socket.
 # PROGRAM:
 # CLIENT:
-```
+
 import socket
 s = socket.socket()
 host = socket.gethostname()
@@ -31,9 +31,8 @@ f.close()
 print('Successfully get the file')
 s.close()
 print('connection closed')
-```
+
 # SERVER:
-```
 import socket
 
 port = 60000
@@ -60,7 +59,7 @@ while True:
     
     conn.send('Thank you for connecting'.encode())
     conn.close()
-    ```
+    
 # CLIENT OUTPUT :
 ![image](https://github.com/AGALYARAMESHKUMAR/EX-10/assets/119394395/2ac18f6b-f78e-45dc-b85b-b8712ceea1df)
 

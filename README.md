@@ -12,7 +12,7 @@ Send message to the client and receive the message from the client using the Soc
 Send and receive the message using the send function in socket.
 # PROGRAM:
 # CLIENT:
-``
+```
 import socket
 s = socket.socket()
 host = socket.gethostname()
@@ -31,7 +31,7 @@ f.close()
 print('Successfully get the file')
 s.close()
 print('connection closed')
-``
+```
 # SERVER:
 ``
 import socket
